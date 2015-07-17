@@ -17,7 +17,6 @@ This is a wish-list.  Some may not be included and I assume more will be added.
 - Works with babel to support most browser versions
 - Significant whitespace, no more ugly pyramid of braces
 - Skinny and fat arrows with almost the same semantics as coffeescript
-- Line numbers are preserved.  No source-map needed.
 - Removes need for `var` before destructuring
 - Converts undefined to null in parameters to fix es6 problem of dropping params.
 - Allows commonjs module `require` syntax
@@ -25,6 +24,12 @@ This is a wish-list.  Some may not be included and I assume more will be added.
 - Allow variables in class prototypes
 - Wrap entire module with protective function
 - In many ways csyn is the best of both CS and JS
+
+### Atom integration out of the gate
+
+Not only will a standard csyn grammar support highlighting, but converting the buffer between csyn and js will be supported with one command.
+
+Also, there will be a mode where the file is always stored as javascript but edited as csyn.  This eliminates the need to run the pre-processor at build time.  This will also allow editing other's javascript files in csyn without them even knowing about csyn.
 
 ### Status
 
