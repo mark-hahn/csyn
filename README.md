@@ -49,7 +49,7 @@ Just a specification at this point.  There is nothing more than this readme.  Ho
 
 CSYN will be written in JS ES6 so it will be effectively written in CSYN.
 
-When stored as a csym file the file suffix will be `.CSYN`.
+When stored as a CSYN file the file suffix will be `.csyn`.
 
 ### Why switch from Coffeescript
 
@@ -119,10 +119,10 @@ try {
 //--- CSYN ---
 -> helloWorld (a = 'hello', b = 'world')  // -> changed to function
   try
-   console.log 'hello'  // call doesn't need parens
+   console.log a  // call doesn't need parens
   catch(e)
    console.log(   // left paren needed for multi-line params
-     'world'
+     b
 ```
 
 ```javascript
